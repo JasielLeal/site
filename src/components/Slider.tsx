@@ -15,7 +15,6 @@ export default function Slider() {
         { id: 2, src: projeto1 }
     ]
 
-
     return (
         <div>
             <Swiper
