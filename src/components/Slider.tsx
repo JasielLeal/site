@@ -20,7 +20,10 @@ export default function Slider() {
             <Swiper
                 grabCursor={true}
                 effect={'creative'}
-                
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 creativeEffect={{
                     prev: {
                         shadow: true,
@@ -33,13 +36,13 @@ export default function Slider() {
                 }}
                 modules={[EffectCreative, Autoplay]}
                 className="mySwiper "
-            >   
+            >
 
-            {data.map((projeto) =>(
-                <SwiperSlide key={projeto.id} className=''>
-                    <Image src={projeto.src} alt='projetos' width={300} />
-                </SwiperSlide>
-            ))}
+                {data.map((projeto) => (
+                    <SwiperSlide key={projeto.id} className=''>
+                        <Image src={projeto.src} alt='projetos' width={300} />
+                    </SwiperSlide>
+                ))}
             </Swiper>
         </div>
     )
