@@ -2,7 +2,9 @@ import { Duvidas } from "@/components/Duvidas";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
 import { NavDesktop } from "@/components/NavDesktop";
-import {SkillCarousel} from "@/components/SkillCarousel";
+import { SkillCarousel } from "@/components/SkillCarousel";
+import { Porque } from "@/components/porque";
+import { Porque2 } from "@/components/porque2";
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
       </div>
       <Hero />
       <SkillCarousel />
-      <Duvidas />
+      <Porque />
+      <Porque2 />
+
     </>
   );
 }

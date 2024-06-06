@@ -24,8 +24,9 @@ export function NavDesktop() {
     const navLinks = [
         { href: '/', label: 'Home' },
         { href: '#portfolio', label: 'Portfólio' },
+        { href: '#servicos', label: 'Serviços' },
         { href: '#duvidas', label: 'Dúvidas' },
-        { href: '#fale-conosco', label: 'Fale Conosco' },
+
     ];
 
     return (
@@ -41,7 +42,7 @@ export function NavDesktop() {
                                 </a>
                             </Link>
                         </li>
-                        
+
                     ))}
                     <Button>
                         <a href="/">Realizar Orçamento</a>

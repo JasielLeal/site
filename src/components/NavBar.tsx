@@ -12,7 +12,7 @@ import { Menu } from "lucide-react"
 
 export function NavBar() {
     return (
-        <div className="flex items-center justify-between h-[70px] fixed w-full px-5 bg-[#0f0f0f]">
+        <div className="flex items-center justify-between h-[70px] fixed w-full px-5 bg-[#0f0f0f] z-50">
             <div>
                 <Image src={logo} alt="logo do site" width={150} />
             </div>
